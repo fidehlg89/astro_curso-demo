@@ -30,6 +30,7 @@ const RAW_RUNTIME_STATE =
           ["@astrojs/check", "virtual:a2a94e9dff4177ead9a18ed53fd7d5d1105911d16c3acedd4bb2f1d2e75cd899121193177de112db8d0aea7f4ca5f6f6ab29cbb726f2f5757f40a680d06d9e8f#npm:0.7.0"],\
           ["@astrojs/tailwind", "virtual:a2a94e9dff4177ead9a18ed53fd7d5d1105911d16c3acedd4bb2f1d2e75cd899121193177de112db8d0aea7f4ca5f6f6ab29cbb726f2f5757f40a680d06d9e8f#npm:5.1.0"],\
           ["astro", "npm:4.10.0"],\
+          ["preact", "npm:10.22.0"],\
           ["tailwindcss", "npm:3.4.4"],\
           ["typescript", "patch:typescript@npm%3A5.4.5#optional!builtin<compat/typescript>::version=5.4.5&hash=5adc0c"]\
         ],\
@@ -2436,6 +2437,7 @@ const RAW_RUNTIME_STATE =
           ["@astrojs/check", "virtual:a2a94e9dff4177ead9a18ed53fd7d5d1105911d16c3acedd4bb2f1d2e75cd899121193177de112db8d0aea7f4ca5f6f6ab29cbb726f2f5757f40a680d06d9e8f#npm:0.7.0"],\
           ["@astrojs/tailwind", "virtual:a2a94e9dff4177ead9a18ed53fd7d5d1105911d16c3acedd4bb2f1d2e75cd899121193177de112db8d0aea7f4ca5f6f6ab29cbb726f2f5757f40a680d06d9e8f#npm:5.1.0"],\
           ["astro", "npm:4.10.0"],\
+          ["preact", "npm:10.22.0"],\
           ["tailwindcss", "npm:3.4.4"],\
           ["typescript", "patch:typescript@npm%3A5.4.5#optional!builtin<compat/typescript>::version=5.4.5&hash=5adc0c"]\
         ],\
@@ -4985,6 +4987,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../.yarn/berry/cache/postcss-value-parser-npm-4.2.0-3cef602a6a-10c0.zip/node_modules/postcss-value-parser/",\
         "packageDependencies": [\
           ["postcss-value-parser", "npm:4.2.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["preact", [\
+      ["npm:10.22.0", {\
+        "packageLocation": "../../../../../.yarn/berry/cache/preact-npm-10.22.0-5d8eaaf0bc-10c0.zip/node_modules/preact/",\
+        "packageDependencies": [\
+          ["preact", "npm:10.22.0"]\
         ],\
         "linkType": "HARD"\
       }]\
